@@ -1,0 +1,8 @@
+
+.toptext {
+    position: center;
+    font-style: oblique;
+    transform: translate(-50%, -50%);
+    color: rebeccapurple;
+    text-align: center;
+}
