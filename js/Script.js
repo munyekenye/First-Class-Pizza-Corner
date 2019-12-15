@@ -64,3 +64,13 @@ function getFlavour() {
     alert("Your order will be delivered in a while, delivery fee is  Ksh.150/=");
 
 }
+function getPick(){
+    var results =(getFlavour() + getSize() + getCrust() + getTopping()) * getNumber();
+    alert("You've ordered  "  + 
+    getNumber("")   +
+     " pizza's,  "  +
+      "which amounts to ksh   "  + 
+       results    +  
+        "  Thanks for shopping with us " 
+    );
+  } 
