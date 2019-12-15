@@ -45,5 +45,10 @@
     padding: 16px 20px;
   }
   
-  
+  footer {
+    background-color:burlywood;
+    height: 20vh;
+    font-size: 1vw;
+    font-weight: bold;
+  }
   
