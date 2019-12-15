@@ -21,3 +21,29 @@
     font-size: 30px;
     color: black;
   }
+  .landingtext {
+    left: 0;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+  }
+  .landingtext > h1 {
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  .mycard {
+    font-size: 18px;
+    padding: 15px 15px;
+   background-color:whitesmoke;
+  }
+  .mybtn {
+    padding: 20px 20px;
+  }
+  .myform {
+    padding: 16px 20px;
+  }
+  
+  
+  
