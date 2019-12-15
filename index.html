@@ -7,41 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>First Class Pizza Corner</title>
 </head>
 
 <body>
-    
-              <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
-                    </div>
-                </nav>
                 <div class="container-fluid">
                     <div class="topage">
-            
                         <div class="toptext">
                             <!-- <img src="./assets/logo/logo.png" alt=""> -->
                             <h1>WELCOME TO FIRST </h1>
@@ -50,7 +22,55 @@
                         </div>
                         </div>
                 </div>
-                <div class="container-fluid">
+               <!--Start Navigation //-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <h1 id="piz-pap" class="">Pi<span id="spantext">zz</span>a pap!</h1>
+    <div class="navi">
+        <ul class="nav-items">
+            <li><a href="#menus">Menu</a></li>
+            <li><a href="#order">Orders</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+    </div>
+</nav>
+<!--End Navigation-->
+<Pizza class="text-white">Regular<br>Ksh. 500</Pizza>
+</figure>
+<figure class="col-sm-4">
+    <img src="images/1.png" alt="medium-pizza" class="wiggle">
+    <Pizza class="text-white">Medium<br>Ksh. 1000</Pizza>
+</figure>
+<figure class="col-sm-4">
+    <img src="images/3.png" alt="large-pizza" class="wiggle">
+    <Pizza class="text-white">Large<br>Ksh. 1500</Pizza>
+</figure>
+</div>
+</div>
+</div>  
+<div class="orders" id="order">
+    <h1 class="text-center" id="order-pizza">Order Pizza</h1>
+    <div class="form-group row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 order-overlay text-center">
+            <form class="col-sm-6 offset-sm-3 text-center">
+                <label>Pick your pizza Flavour:</label>
+                <select class="custom-select custom-select-md mb-3 flavour" required>
+                    <option value="vegtikka">Veg Tikka</option>
+                    <option value="chikentikka">Chicken Tikka</option>
+                    <option value="chickentikka">Chicken Tikka</option>
+                    <option value="periperi">Peri-Peri Chicken</option>
+                    <option value="bbq">BBQ Steak</option>
+                    <option value="boerewors">Boerewors</option>
+@@ -156,7 +156,7 @@ <h1 class="text-center" id="order-pizza">Order Pizza</h1>
+
+            </form>
+            <a href="#summary">
+                <button type="submit" class="btn btn-success checkout" id="checkout" onclick="validateInput()">
+                <button type="submit" class="btn btn-success checkout" id="checkout">
+                    Checkout
+                </button>
+           
+<div class="container-fluid">
                     <div class="container">
                         <h3 class="text-center">Pizza Choices</h3>
                         <br><br>
@@ -85,10 +105,7 @@
                                     </div>
                                 </div>
                             </div>
-
-
-
-
+                        </a>
                             <script src="https://code.jquery.com/jquery-3.3.1.min.js"
                                 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
                                 crossorigin="anonymous"></script>
