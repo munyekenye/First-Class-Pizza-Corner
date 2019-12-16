@@ -14,7 +14,7 @@
 
 .navbar {
   font-size: 25px !important;
-  background-color: goldenrod !important;
+  background-color:peru !important;
   z-index: 100;
 }
 .navbar-brand {
@@ -40,14 +40,18 @@
 }
 .mybtn {
   padding: 20px 20px;
+  background-color: peru;
+  text-decoration: black;
 }
 .myform {
   padding: 16px 20px;
+  background-color: peru;
+  text-decoration-color: black;
 }
 
 footer {
-  background-color: burlywood;
-  height: 20vh;
+  background-color:peru;
+  height: 10vh;
   font-size: 1vw;
   font-weight: bold;
 }
@@ -55,10 +59,10 @@ footer {
 
 @media (max-width: 576px) {
   .landingtext > h1 {
-    font-size: 9vw;
+    font-size: 5vw;
   }
   footer {
-    height: 30vh;
+    height: 5vh;
     font-size: 5vw;
   }
 }

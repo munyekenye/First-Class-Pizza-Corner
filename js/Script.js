@@ -1,15 +1,15 @@
 // // declaring variables
 var pizzaSize = [
-    "Regular",
+    "Small",
     "Medium",
     "Large",
 ];
 var pizzaFlavour = [
-    "Berry",
-    "Butternut Squash",
+    "Veg Feast",
+    "Cheese Burger",
     "Chicken",
-    "Hummus",
-    "Turkish Ground"
+    "Meat Deluxe",
+    "Chicken & Mushroom",
 ]
 var pizzaTopping = [
     "Onion",
@@ -19,10 +19,10 @@ var pizzaTopping = [
 ];
 
 var pizzaCrust = [
+    "Cheese-Stuffed crust",
     "Thin crust",
-    "Thick crust",
-    "Deep crust",
-    "Stuffed crust",
+    "Neapolitan crust",
+    "NY style crust",
 ];
 // calling functions
 
@@ -56,12 +56,12 @@ function getAmount() {
         " pizza's," +
         "which amounts to Ksh. " +
         results +
-        " Thanks for your choice,welcome again!"
+        " Thanks for  choosing us, welcome back again!"
     );
-    prompt("Enter your location");
+    prompt("Enter delivery location");
     prompt("Enter your name");
     prompt("Enter your phone number")
-    alert("Your order will be delivered in a while, delivery fee is  Ksh.150/=");
+    alert("Your order will be delivered in a while, delivery fee is  Ksh.200/=");
 
 }
 function getPick() {
