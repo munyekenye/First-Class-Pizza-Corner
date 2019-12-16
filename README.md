@@ -9,7 +9,7 @@ The user reloads the page,then click on the order a the navigation bar,where it 
 ## Setup/Installation Requirements
 - Open terminal (CTRL ALT T)
 - git clone https://github.com/munyekenye/First-Class-Pizza-Corner.git
-- cd Seron-instant-pizza
+- cd Pizza
 - use  code . to open the clone repo on Atom or VS-code respectively
 ## Known Bugs
 None
