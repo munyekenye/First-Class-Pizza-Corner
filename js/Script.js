@@ -1,10 +1,9 @@
 // // declaring variables
-var pizzaSize =[ 
+var pizzaSize = [
     "Regular",
     "Medium",
     "Large",
-     ];
-     
+];
 var pizzaFlavour = [
     "Berry",
     "Butternut Squash",
@@ -13,50 +12,51 @@ var pizzaFlavour = [
     "Turkish Ground"
 ]
 var pizzaTopping = [
-    "Onion", 
-    "Mushroom", 
-    "bacon", 
+    "Onion",
+    "Mushroom",
+    "bacon",
     "black olives",
-   ];
+];
 
-   var pizzaCrust = [ 
+var pizzaCrust = [
     "Thin crust",
-    "Thick crust", 
-    "Deep crust", 
+    "Thick crust",
+    "Deep crust",
     "Stuffed crust",
-   ];
-   // calling functions
+];
+// calling functions
+
+function getSize() {
+    var size = document.getElementById("pizzasize").value;
+    return parseInt(size);
+}
 function getFlavour() {
 
     var flavour = document.getElementById("pizzaflavour").value;
     return parseInt(flavour);
-  }
-  function getSize() {
-    var size = document.getElementById("pizzasize").value;
-    return parseInt(size);
-  }
-  
-  function getCrust() {
+}
+
+function getCrust() {
     var crust = document.getElementById("pizzacrust").value;
     return parseInt(crust);
-  }
-  function getTopping() {
+}
+function getTopping() {
     var topping = document.getElementById("pizzatopping").value;
     return parseInt(topping);
-  }
-  function getNumber() {
+}
+function getNumber() {
     var number = document.getElementById("number").value;
     return parseInt(number);
-  }
-  function getAmount() {
-    var results =(getFlavour() + getSize() + getCrust() + getTopping()) * getNumber();
+}
+function getAmount() {
+    var results = (getFlavour() + getSize() + getCrust() + getTopping()) * getNumber();
     alert(
-      "You've ordered " +
-      getNumber("") +  
-      " pizza's," +    
-      "which amounts to Ksh. " +
-      results +
-      " Thanks for your order,welcome again!"
+        "You've ordered " +
+        getNumber("") +
+        " pizza's," +
+        "which amounts to Ksh. " +
+        results +
+        " Thanks for your choice,welcome again!"
     );
     prompt("Enter your location");
     prompt("Enter your name");
@@ -64,13 +64,13 @@ function getFlavour() {
     alert("Your order will be delivered in a while, delivery fee is  Ksh.150/=");
 
 }
-function getPick(){
-    var results =(getFlavour() + getSize() + getCrust() + getTopping()) * getNumber();
-    alert("You've ordered  "  + 
-    getNumber("")   +
-     " pizza's,  "  +
-      "which amounts to ksh   "  + 
-       results    +  
-        "  Thanks for shopping with us " 
+function getPick() {
+    var results = (getFlavour() + getSize() + getCrust() + getTopping()) * getNumber();
+    alert("You've ordered  " +
+        getNumber("") +
+        " pizza's,  " +
+        "which amounts to ksh   " +
+        results +
+        "  Thanks for shopping with us "
     );
-  } 
+} 
